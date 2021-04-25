@@ -63,6 +63,12 @@ ul li:hover span {
   color: #fff;
   box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.5);
 }
+ul li.snap:hover span {
+  z-index: 1000;
+  transition: 0.3s;
+  color: #0a0a0f;
+  box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.5);
+}
 ul li:hover span:nth-child(5) {
   transform: translate(40px, -40px);
   opacity: 1;
