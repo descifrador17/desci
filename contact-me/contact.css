@@ -7,7 +7,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #00071c;
+  background: #0a0a0f;
 }
 ul {
   position: relative;
@@ -18,8 +18,8 @@ ul {
 ul li {
   position: relative;
   list-style: none;
-  width: 60px;
-  height: 60px;
+  width: 100px;
+  height: 100px;
   margin: 0px 20px;
 }
 ul li:before {
@@ -30,7 +30,6 @@ ul li:before {
   width: 100%;
   height: 10px;
   background: #2a2a2a;
-  trnasform-origin: top;
   transform: skewX(-41deg);
 }
 ul li:after {
@@ -41,13 +40,12 @@ ul li:after {
   width: 9px;
   height: 100%;
   background: #2a2a2a;
-  trnasform-origin: right;
   transform: skewY(-49deg);
 }
 ul li span {
   position: absolute;
   top: 0;
-  lef: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   display: flex !important;
@@ -58,11 +56,12 @@ ul li span {
   font-size: 30px !important;
   transition: 1.5s ease-out;
 }
+
 ul li:hover span {
   z-index: 1000;
   transition: 0.3s;
   color: #fff;
-  box-shadw: -1px 1px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 ul li:hover span:nth-child(5) {
   transform: translate(40px, -40px);
@@ -84,7 +83,7 @@ ul li:hover span:nth-child(1) {
   transform: translate(0px, 0px);
   opacity: 0.2;
 }
-ul.a li:nth-child(1):hover span {
+ul li:nth-child(1):hover span {
   background: #52e19f !important;
 }
 ul li:nth-child(2):hover span {
@@ -95,4 +94,160 @@ ul li:nth-child(3):hover span {
 }
 ul li:nth-child(4):hover span {
   background: #fceb00 !important;
+}
+
+ul li.gmail:nth-child(1):hover span {
+  background: #ea4335 !important;
+}
+ul li.gmail:nth-child(2):hover span {
+  background: #ea4335 !important;
+}
+ul li.gmail:nth-child(3):hover span {
+  background: #ea4335 !important;
+}
+ul li.gmail:nth-child(4):hover span {
+  background: #ea4335 !important;
+}
+
+ul li.linkedin:nth-child(1):hover span {
+  background: #0a66c2 !important;
+}
+ul li.linkedin:nth-child(2):hover span {
+  background: #0a66c2 !important;
+}
+ul li.linkedin:nth-child(3):hover span {
+  background: #0a66c2 !important;
+}
+ul li.linkedin:nth-child(4):hover span {
+  background: #0a66c2 !important;
+}
+
+ul li.hackerrank:nth-child(1):hover span {
+  background: #2ec866 !important;
+}
+ul li.hackerrank:nth-child(2):hover span {
+  background: #2ec866 !important;
+}
+ul li.hackerrank:nth-child(3):hover span {
+  background: #2ec866 !important;
+}
+ul li.hackerrank:nth-child(4):hover span {
+  background: #2ec866 !important;
+}
+
+ul li.github:nth-child(1):hover span {
+  background: #181717 !important;
+}
+ul li.github:nth-child(2):hover span {
+  background: #181717 !important;
+}
+ul li.github:nth-child(3):hover span {
+  background: #181717 !important;
+}
+ul li.github:nth-child(4):hover span {
+  background: #181717 !important;
+}
+
+ul li.quora:nth-child(1):hover span {
+  background: #b92b27 !important;
+}
+ul li.quora:nth-child(2):hover span {
+  background: #b92b27 !important;
+}
+ul li.quora:nth-child(3):hover span {
+  background: #b92b27 !important;
+}
+ul li.quora:nth-child(4):hover span {
+  background: #b92b27 !important;
+}
+
+ul li.dribbble:nth-child(1):hover span {
+  background: #ea4c89 !important;
+}
+ul li.dribbble:nth-child(2):hover span {
+  background: #ea4c89 !important;
+}
+ul li.dribbble:nth-child(3):hover span {
+  background: #ea4c89 !important;
+}
+ul li.dribbble:nth-child(4):hover span {
+  background: #ea4c89 !important;
+}
+
+ul li.googleplay:nth-child(1):hover span {
+  background: #414141 !important;
+}
+ul li.googleplay:nth-child(2):hover span {
+  background: #414141 !important;
+}
+ul li.googleplay:nth-child(3):hover span {
+  background: #414141 !important;
+}
+ul li.googleplay:nth-child(4):hover span {
+  background: #414141 !important;
+}
+
+ul li.spotify:nth-child(1):hover span {
+  background: #1ed760 !important;
+}
+ul li.spotify:nth-child(2):hover span {
+  background: #1ed760 !important;
+}
+ul li.spotify:nth-child(3):hover span {
+  background: #1ed760 !important;
+}
+ul li.spotify:nth-child(4):hover span {
+  background: #1ed760 !important;
+}
+
+ul li.xbox:nth-child(1):hover span {
+  background: #107c10 !important;
+}
+ul li.xbox:nth-child(2):hover span {
+  background: #107c10 !important;
+}
+ul li.xbox:nth-child(3):hover span {
+  background: #107c10 !important;
+}
+ul li.xbox:nth-child(4):hover span {
+  background: #107c10 !important;
+}
+
+ul li.snap:nth-child(1):hover span {
+  background: #fffc00 !important;
+}
+ul li.snap:nth-child(2):hover span {
+  background: #fffc00 !important;
+}
+ul li.snap:nth-child(3):hover span {
+  background: #fffc00 !important;
+}
+ul li.snap:nth-child(4):hover span {
+  background: #fffc00 !important;
+}
+
+ul li.instagram:nth-child(1):hover span {
+  background: #e4405f !important;
+}
+ul li.instagram:nth-child(2):hover span {
+  background: #e4405f !important;
+}
+ul li.instagram:nth-child(3):hover span {
+  background: #e4405f !important;
+}
+ul li.instagram:nth-child(4):hover span {
+  background: #e4405f !important;
+}
+
+ul li.discord:nth-child(1):hover span {
+  background: #7289da !important;
+}
+ul li.discord:nth-child(2):hover span {
+  background: #7289da !important;
+}
+ul li.discord:nth-child(3):hover span {
+  background: #7289da !important;
+}
+ul li.discord:nth-child(4):hover span {
+  background: #7289da !important;
 }
